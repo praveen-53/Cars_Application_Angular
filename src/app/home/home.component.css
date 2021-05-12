@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  a {
+    font-size: 20px;
+    color : blue
+  }
+
+  button {
+    padding: 10px;
+  }

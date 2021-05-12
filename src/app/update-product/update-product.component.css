@@ -1,0 +1,8 @@
+label, input {
+    font-size: 20px;
+    padding: 8px;
+  }
+  
+  input {
+      margin-top: 10px
+  }

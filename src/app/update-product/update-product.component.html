@@ -1,0 +1,10 @@
+<h2>
+    Update Product
+</h2>
+
+<form id = "productFormData"  name = "productFormData" #productData = "ngForm" (ngSubmit)="updateProduct(productData)"> 
+    <label>Name : </label> <input type="text" id = "name" name = "name"  placeHolder = "name" [(ngModel)] = data.name  ><br>
+    <label>Color : </label>  <input type="text" id = "color" name = "color" placeHolder = "color" [(ngModel)] = data.color ><br>
+    <input type="submit" value = "Update Product">
+</form>
+
